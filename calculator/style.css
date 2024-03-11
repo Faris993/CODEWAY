@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f4f4f4; /* Dodato: boja pozadine tela */
+}
+
+#calculator {
+    border: 2px solid #3498db; /* Dodato: boja ivica kalkulatora */
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    width: 300px;
+    background-color: #fff; /* Dodato: boja pozadine kalkulatora */
+}
+
+input {
+    width: calc(100% - 20px);
+    margin-bottom: 10px;
+    padding: 15px; /* Povećano: veći padding za bolji izgled */
+    font-size: 18px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    width: 48px;
+    height: 48px;
+    font-size: 18px;
+    margin: 5px;
+    cursor: pointer;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #3498db; /* Dodato: boja pozadine dugmadi */
+    color: #fff; /* Dodato: beli tekst na tamno plavoj pozadini */
+}
+
+button:hover {
+    background-color: #2074a0; /* Dodato: promena boje pozadine prilikom hovera */
+}
